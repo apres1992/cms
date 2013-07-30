@@ -1,0 +1,47 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	margin-top: 50px;
+}
+
+.page {
+	width: 15%;
+	height: 220px;
+	float: left;
+	margin: 10px 5px 0 5px;
+	border: 1px solid #777;
+	position: relative;
+}
+
+.page h5 {
+	padding: 0 5px;
+	display: none;
+}
+
+.page p {
+	margin: 0;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	display: none;
+}
+
+.page p a {
+	margin-left: 5px;
+}
+
+.page.active h5 {
+	display: block;
+}
+
+.page.active p {
+	display: block;
+}
+
+#permission label {
+	padding-left: 10px;
+}
+
